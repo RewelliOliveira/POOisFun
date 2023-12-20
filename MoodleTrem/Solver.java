@@ -138,10 +138,6 @@ class Trem {
     }
 }
 
-enum Direcao {
-    IN,
-    OUT;
-}
 class Movimento {
     private Passageiro pass;
     private Direcao direcao;
