@@ -2,21 +2,6 @@
 package MoodleTrem;
 import java.util.*;
 
-class Passageiro {
-    private String id;
-
-    public Passageiro(String id) {
-        this.id = id;
-    }
-
-    public String getId() {
-        return this.id;
-    }
-    public void setId(String id) {
-        this.id = id;
-    }
-}
-
 class Vagao {
     private ArrayList<Passageiro> cadeiras;
 
